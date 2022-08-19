@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  trabalho: 
+    image: imagemtrabalho
+    build: .
+    ports: 
+      - 8080:8080
+    volumes: 
+      - trabvolume:/HomeWorks/Volume/
+volumes:
+  trabvolume:       
