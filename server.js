@@ -24,4 +24,4 @@ fs.writeFile('./Volume/soma.txt', content, err => {
 });
 
 app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
+console.log(`Atualizou --- Running on http://${HOST}:${PORT}`);
